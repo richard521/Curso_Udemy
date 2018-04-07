@@ -1,0 +1,51 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 20px 0;
+}
+body{
+  font-family: verdana, geneva, serif;
+}
+div.BV_Contenedor{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.BV_Navegacion{
+  background-color: #db008d;
+}
+nav{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after{
+  content: '';
+  display: block;
+  clear:
+}
+nav ul li a{
+  display: inline-block;
+  width: 200px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+nav ul ul{
+  position: absolute;
+}
